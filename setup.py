@@ -182,8 +182,9 @@ setup(
     zip_safe=False,
     install_requires=[
         'django>=1.8',
+        'celery@git+https://github.com/vBlackOut/celery#egg=package-1.0',
+        'kombu@git+https://github.com/vBlackOut/kombu#egg=package-1.0'   
     ],
-    dependency_links=['https://github.com/vBlackOut/celery/tarball/master#egg=package-1.0', 'https://github.com/vBlackOut/kumbo/tarball/master#egg=package-1.0'],
     cmdclass={'test': RunTests,
               'quicktest': QuickRunTests,
               'citest': CIRunTests},
