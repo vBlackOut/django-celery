@@ -183,7 +183,7 @@ setup(
     install_requires=[
         'django>=1.8',
     ],
-    dependency_links = ['https://github.com/vBlackOut/django-celery-celery.git', 'https://github.com/vBlackOut/django-celery-kombu.git'],
+    dependency_links = ['https://github.com/vBlackOut/django-celery-celery/tarball/master', 'https://github.com/vBlackOut/django-celery-kombu/tarball/maste'],
     cmdclass={'test': RunTests,
               'quicktest': QuickRunTests,
               'citest': CIRunTests},
