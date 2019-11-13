@@ -181,8 +181,8 @@ setup(
     package_data=package_data,
     zip_safe=False,
     install_requires=[
-        'pip @ https://github.com/vBlackOut/django-celery-celery/archive/master.zip',
-        'pip @ https://github.com/vBlackOut/django-celery-kombu/archive/master.zip',
+        'pip @ https://github.com/vBlackOut/celery/archive/master.zip',
+        'pip @ https://github.com/vBlackOut/kombu/archive/master.zip',
         'django>=1.8',
     ],
     cmdclass={'test': RunTests,
