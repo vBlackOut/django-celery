@@ -183,7 +183,7 @@ setup(
     install_requires=[
         'django>=1.8',
     ],
-    dependency_links=['https://github.com/vBlackOut/celery/tarball/master#egg=package-1.0', 'https://github.com/vBlackOut/kumbo/tarball/master#egg=package-1.0']
+    dependency_links=['https://github.com/vBlackOut/celery/tarball/master#egg=package-1.0', 'https://github.com/vBlackOut/kumbo/tarball/master#egg=package-1.0'],
     cmdclass={'test': RunTests,
               'quicktest': QuickRunTests,
               'citest': CIRunTests},
