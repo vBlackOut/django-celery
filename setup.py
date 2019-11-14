@@ -182,7 +182,7 @@ setup(
     zip_safe=False,
     install_requires=[
         'django>=1.8',
-        'celery@git+https://github.com/vBlackOut/celery#egg=package-1.0',
+        'celery-3.1.26@git+https://github.com/vBlackOut/celery#egg=package-1.0',
         'kombu@git+https://github.com/vBlackOut/kombu#egg=package-1.0'   
     ],
     cmdclass={'test': RunTests,
