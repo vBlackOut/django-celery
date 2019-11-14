@@ -89,11 +89,8 @@ or from source.
 
 To install using ``pip``,::
 
-    $ pip install django-celery
+    $ pip install git+https://github.com/vBlackOut/django-celery.git
 
-To install using ``easy_install``,::
-
-    $ easy_install django-celery
 
 You will then want to create the necessary tables. If you generating
 schema migrations, you'll want to run::
@@ -101,25 +98,12 @@ schema migrations, you'll want to run::
     $ python manage.py migrate djcelery
 
 
-
-Downloading and installing from source
---------------------------------------
-
-Download the latest version of ``django-celery`` from
-http://pypi.python.org/pypi/django-celery/
-
-You can install it by doing the following,::
-
-    $ tar xvfz django-celery-0.0.0.tar.gz
-    $ cd django-celery-0.0.0
-    # python setup.py install # as root
-
 Using the development version
 ------------------------------
 
 You can clone the git repository by doing the following::
 
-    $ git clone git://github.com/celery/django-celery.git
+    $ git clone git://github.com/vBlackOut/django-celery.git
 
 Getting Help
 ============
